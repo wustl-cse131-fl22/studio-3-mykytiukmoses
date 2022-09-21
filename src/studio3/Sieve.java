@@ -26,17 +26,7 @@ public class Sieve {
 	    		bool[c*e] = false;
 	    	}
 	    }
-	    /*
-	    
-	    
-	    for (int i = 2; i< Math.sqrt(maxNum); i++) {
-	         if(bool[i] == true) {
-	            for(int j = (i*i); j<maxNum; j = j+i) {
-	               bool[j] = false;
-	            }
-	         }
-	      }
-	      */
+	   
 	      System.out.println("List of prime numbers upto given number are : ");
 	      for (int i = 2; i< bool.length; i++) {
 	         if(bool[i]==true) {
